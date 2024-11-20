@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos Usados</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Produtos Usados</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#products">Produtos</a></li>
+                <li><a href="#about">Sobre Nós</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Bem-vindo ao Mercado de Usados!</h2>
+        <p>Encontre produtos de qualidade a preços incríveis!</p>
+        <button>Saiba Mais</button>
+    </section>
+
+    <section id="products">
+        <h2>Nossos Produtos</h2>
+        <div class="product-grid">
+            <!-- Loop through products -->
+            <div class="product">
+                <img src="placeholder.jpg" alt="Produto Usado">
+                <h3>Produto 1</h3>
+                <p>R$ 50,00</p>
+                <button>Comprar</button>
+            </div>
+            <!-- Repeat for other products -->
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>Sobre Nós</h2>
+        <p>Nós somos apaixonados por dar uma nova vida aos produtos usados. Confira nossa história!</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contato</h2>
+        <form>
+            <input type="text" placeholder="Nome">
+            <input type="email" placeholder="Email">
+            <textarea placeholder="Mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Produtos Usados. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
